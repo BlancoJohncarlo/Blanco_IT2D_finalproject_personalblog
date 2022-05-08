@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bill-and-carlo-blog [
+<!ELEMENT bill-and-carlo-blog (user)>
+<!ELEMENT user (id , firstname , lastname , address , birthday , zodiac , age , status , crush , contact)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT firstname (#PCDATA)>
+<!ELEMENT lastname (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT birthday (#PCDATA)>
+<!ELEMENT zodiac (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT status (#PCDATA)>
+<!ELEMENT crush (#PCDATA)>
+<!ELEMENT contact (#PCDATA)>
+]>
+<bill-and-carlo-blog>
+  <user>
+    <id>2341</id>
+    <firstname>John Carlo</firstname>
+    <lastname>Blanco</lastname>
+    <address>Balogo, Boac, Marinduque</address>
+    <birthday>May,2,2002</birthday>
+    <zodiac>taurus</zodiac>
+    <age>20</age>
+    <status>Single</status>
+    <crush>Ruby</crush>
+    <contact>09123453622</contact>
+  </user>
+  <user>
+    <id>4321</id>
+    <firstname>Bill Francis</firstname>
+    <lastname>Martillano</lastname>
+    <address>Lupac, Boac, Marinduque</address>
+    <birthday>October 10 2000</birthday>
+    <zodiac>Libra</zodiac>
+    <age>21</age>
+    <status>Single</status>
+    <crush>Dasha</crush>
+    <contact>09568814469</contact>
+  </user>
+  <user>
+    <id>2211</id>
+    <firstname>clara</firstname>
+    <lastname>santos</lastname>
+    <address>mogpo</address>
+    <birthday>november 1</birthday>
+    <zodiac>cancer</zodiac>
+    <age>17</age>
+    <status>taken</status>
+    <crush>none</crush>
+    <contact>09765421344</contact>
+  </user>
+</bill-and-carlo-blog>
