@@ -12,6 +12,7 @@
 		$user->addChild('zodiac', $_POST['zodiac']);
 		$user->addChild('age', $_POST['age']);
 		$user->addChild('status', $_POST['status']);
+                $user->addChild('gender', $_POST['gender']);
 		$user->addChild('crush', $_POST['crush']);
 		$user->addChild('contact', $_POST['contact']);
 		// Save to file
