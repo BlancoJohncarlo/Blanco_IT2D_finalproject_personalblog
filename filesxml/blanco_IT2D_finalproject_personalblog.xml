@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE bill-and-carlo-blog [
 <!ELEMENT bill-and-carlo-blog (user)>
-<!ELEMENT user (id , firstname , lastname , address , birthday , zodiac , age , status , crush , contact)>
+<!ELEMENT user (id , firstname , lastname , address , birthday , zodiac , age , status ,gender, crush , contact)>
 <!ELEMENT id (#PCDATA)>
 <!ELEMENT firstname (#PCDATA)>
 <!ELEMENT lastname (#PCDATA)>
@@ -10,6 +10,7 @@
 <!ELEMENT zodiac (#PCDATA)>
 <!ELEMENT age (#PCDATA)>
 <!ELEMENT status (#PCDATA)>
+<!ELEMENT gender (#PCDATA)>
 <!ELEMENT crush (#PCDATA)>
 <!ELEMENT contact (#PCDATA)>
 ]>
@@ -23,6 +24,7 @@
     <zodiac>taurus</zodiac>
     <age>20</age>
     <status>Single</status>
+    <gender>male</gender>
     <crush>Ruby</crush>
     <contact>09123453622</contact>
   </user>
@@ -35,6 +37,7 @@
     <zodiac>Libra</zodiac>
     <age>21</age>
     <status>Single</status>
+    <gender>male</gender>
     <crush>Dasha</crush>
     <contact>09568814469</contact>
   </user>
@@ -47,6 +50,7 @@
     <zodiac>cancer</zodiac>
     <age>17</age>
     <status>taken</status>
+    <gender>female</gender>
     <crush>none</crush>
     <contact>09765421344</contact>
   </user>
