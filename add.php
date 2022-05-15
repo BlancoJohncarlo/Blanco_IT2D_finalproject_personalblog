@@ -16,13 +16,13 @@
 		$user->addChild('crush', $_POST['crush']);
 		$user->addChild('contact', $_POST['contact']);
 		// Save to file
-		// file_put_contents('files/blanco_martillano_IT2D_finalproject_personalblog.xml', $users->asXML());
+		// file_put_contents('files/blanco_IT2D_finalproject_personalblog.xml', $users->asXML());
 		// Prettify / Format XML and save
 		$dom = new DomDocument();
 		$dom->preserveWhiteSpace = false;
 		$dom->formatOutput = true;
 		$dom->loadXML($users->asXML());
-		$dom->save('filesxml/blanco_martillano_IT2D_finalproject_personalblog.xml');
+		$dom->save('filesxml/blanco_IT2D_finalproject_personalblog.xml');
 		// Prettify / Format XML and save
  
 		$_SESSION['message'] = 'Member added successfully';
